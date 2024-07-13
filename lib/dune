@@ -3,8 +3,8 @@
 (library
  (name omonkey)
  (modules
-   token lexer repl
-   lexer__test)
+   token lexer repl ast parser
+   lexer__test parser__test)
  (libraries core fmt unix)
  (inline_tests)
  (preprocess
