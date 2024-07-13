@@ -3,9 +3,9 @@
 (library
  (name omonkey)
  (modules
-   token lexer
+   token lexer repl
    lexer__test)
- (libraries core fmt)
+ (libraries core fmt unix)
  (inline_tests)
  (preprocess
   (pps
